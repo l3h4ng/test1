@@ -1,0 +1,28 @@
+django==1.11.6
+djangorestframework==3.7.1
+django-cors-headers==1.1.0
+django-filter
+cryptography
+pyopenssl
+gunicorn==19.6.0
+requests
+jsonfield
+#django-jsonfield
+psycopg2
+psycopg2-binary
+#mysql-python==1.2.5
+#pymysql
+#MySQL-python
+#easy_install MySQL-python
+#django-multi-email-field
+retrying
+django-rest-swagger
+django-extensions
+numpy
+######## WINDOW  ######
+numpy
+
+######## LINUX  ######
+#fcntl
+#apt-get install python-numpy
+pika==0.11.2

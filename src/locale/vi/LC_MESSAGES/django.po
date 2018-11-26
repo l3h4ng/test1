@@ -1,0 +1,724 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# 1. settings.py
+#LANGUAGES = (
+#    ('en', _('English')),
+#    ('vi', _('Vietnam')),
+#)
+# LANGUAGE_CODE = 'vi'
+# 2. Add to header file
+# from django.utils.translation import ugettext_lazy as _
+# 3. Edit msg
+# python manage.py compilemessages -l vi
+# 4. Restart web service
+msgid ""
+msgstr ""
+"Project-Id-Version: Django REST framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-01 18:38+0100\n"
+"PO-Revision-Date: 2016-03-01 17:38+0000\n"
+"Last-Translator: Xavier Ordoquy <xordoquy@linovia.com>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/django-rest-framework-1/django-rest-framework/language/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: authentication.py:71
+msgid "Invalid basic header. No credentials provided."
+msgstr ""
+
+#: authentication.py:74
+msgid "Invalid basic header. Credentials string should not contain spaces."
+msgstr ""
+
+#: authentication.py:80
+msgid "Invalid basic header. Credentials not correctly base64 encoded."
+msgstr ""
+
+#: authentication.py:97
+msgid "Invalid username/password."
+msgstr ""
+
+#: authentication.py:100 authentication.py:195
+msgid "User inactive or deleted."
+msgstr "Tài khoản người dùng đã bị xóa hoặc bị block."
+
+#: authentication.py:173
+msgid "Invalid token header. No credentials provided."
+msgstr ""
+
+#: authentication.py:176
+msgid "Invalid token header. Token string should not contain spaces."
+msgstr ""
+
+#: authentication.py:182
+msgid ""
+"Invalid token header. Token string should not contain invalid characters."
+msgstr ""
+
+#: authentication.py:192
+msgid "Invalid token."
+msgstr ""
+
+#: authtoken/apps.py:7
+msgid "Auth Token"
+msgstr ""
+
+#: authtoken/models.py:21
+msgid "Key"
+msgstr ""
+
+#: authtoken/models.py:23
+msgid "User"
+msgstr ""
+
+#: authtoken/models.py:24
+msgid "Created"
+msgstr ""
+
+#: authtoken/models.py:33
+msgid "Token"
+msgstr ""
+
+#: authtoken/models.py:34
+msgid "Tokens"
+msgstr ""
+
+#: authtoken/serializers.py:8
+msgid "Username"
+msgstr ""
+
+#: authtoken/serializers.py:9
+msgid "Password"
+msgstr ""
+
+#: authtoken/serializers.py:20
+msgid "User account is disabled."
+msgstr "Tài khoản bị block! Vui lòng liên hệ với quản trị để được hỗ trợ."
+
+#: authtoken/serializers.py:23
+msgid "Unable to log in with provided credentials."
+msgstr "Không thể đăng nhập. Kiểm tra lại thông tin email, mật khẩu."
+
+#: authtoken/serializers.py:26
+msgid "Must include \"username\" and \"password\"."
+msgstr ""
+
+#: exceptions.py:49
+msgid "A server error occurred."
+msgstr ""
+
+#: exceptions.py:84
+msgid "Malformed request."
+msgstr ""
+
+#: exceptions.py:89
+msgid "Incorrect authentication credentials."
+msgstr ""
+
+#: exceptions.py:94
+msgid "Authentication credentials were not provided."
+msgstr ""
+
+#: exceptions.py:99
+msgid "You do not have permission to perform this action."
+msgstr "Bạn không đủ quyền để thực hiện thao tác này. Vui lòng liên hệ quản trị hoặc chuyển sang các thao tác khác"
+
+#: exceptions.py:104 views.py:81
+msgid "Not found."
+msgstr "không tìm thấy"
+
+#: exceptions.py:109
+#, python-brace-format
+msgid "Method \"{method}\" not allowed."
+msgstr ""
+
+#: exceptions.py:120
+msgid "Could not satisfy the request Accept header."
+msgstr ""
+
+#: exceptions.py:132
+#, python-brace-format
+msgid "Unsupported media type \"{media_type}\" in request."
+msgstr ""
+
+#: exceptions.py:145
+msgid "Request was throttled."
+msgstr ""
+
+#: fields.py:266 relations.py:206 relations.py:239 validators.py:79
+#: validators.py:162
+msgid "This field is required."
+msgstr "Đây là trường bắt buộc phải nhập"
+
+#: fields.py:267
+msgid "This field may not be null."
+msgstr ""
+
+#: fields.py:603 fields.py:634
+#, python-brace-format
+msgid "\"{input}\" is not a valid boolean."
+msgstr ""
+
+#: fields.py:669
+msgid "This field may not be blank."
+msgstr "Trường này không thể để trống"
+
+#: fields.py:670 fields.py:1664
+#, python-brace-format
+msgid "Ensure this field has no more than {max_length} characters."
+msgstr ""
+
+#: fields.py:671
+#, python-brace-format
+msgid "Ensure this field has at least {min_length} characters."
+msgstr "Đảm bảo độ dài tối thiểu {min_length} kí tự"
+
+#: fields.py:708
+msgid "Enter a valid email address."
+msgstr "Địa chỉ email không đúng. Vui lòng kiểm tra lại."
+
+#: fields.py:719
+msgid "This value does not match the required pattern."
+msgstr ""
+
+#: fields.py:730
+msgid ""
+"Enter a valid \"slug\" consisting of letters, numbers, underscores or "
+"hyphens."
+msgstr ""
+
+#: fields.py:742
+msgid "Enter a valid URL."
+msgstr "Nhập một địa chỉ url"
+
+#: fields.py:755
+#, python-brace-format
+msgid "\"{value}\" is not a valid UUID."
+msgstr ""
+
+#: fields.py:791
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: fields.py:816
+msgid "A valid integer is required."
+msgstr ""
+
+#: fields.py:817 fields.py:852 fields.py:885
+#, python-brace-format
+msgid "Ensure this value is less than or equal to {max_value}."
+msgstr ""
+
+#: fields.py:818 fields.py:853 fields.py:886
+#, python-brace-format
+msgid "Ensure this value is greater than or equal to {min_value}."
+msgstr ""
+
+#: fields.py:819 fields.py:854 fields.py:890
+msgid "String value too large."
+msgstr ""
+
+#: fields.py:851 fields.py:884
+msgid "A valid number is required."
+msgstr ""
+
+#: fields.py:887
+#, python-brace-format
+msgid "Ensure that there are no more than {max_digits} digits in total."
+msgstr ""
+
+#: fields.py:888
+#, python-brace-format
+msgid ""
+"Ensure that there are no more than {max_decimal_places} decimal places."
+msgstr ""
+
+#: fields.py:889
+#, python-brace-format
+msgid ""
+"Ensure that there are no more than {max_whole_digits} digits before the "
+"decimal point."
+msgstr ""
+
+#: fields.py:1004
+#, python-brace-format
+msgid "Datetime has wrong format. Use one of these formats instead: {format}."
+msgstr ""
+
+#: fields.py:1005
+msgid "Expected a datetime but got a date."
+msgstr ""
+
+#: fields.py:1082
+#, python-brace-format
+msgid "Date has wrong format. Use one of these formats instead: {format}."
+msgstr ""
+
+#: fields.py:1083
+msgid "Expected a date but got a datetime."
+msgstr ""
+
+#: fields.py:1151
+#, python-brace-format
+msgid "Time has wrong format. Use one of these formats instead: {format}."
+msgstr ""
+
+#: fields.py:1215
+#, python-brace-format
+msgid "Duration has wrong format. Use one of these formats instead: {format}."
+msgstr ""
+
+#: fields.py:1240 fields.py:1289
+#, python-brace-format
+msgid "\"{input}\" is not a valid choice."
+msgstr ""
+
+#: fields.py:1243 relations.py:71 relations.py:442
+#, python-brace-format
+msgid "More than {count} items..."
+msgstr ""
+
+#: fields.py:1290 fields.py:1437 relations.py:438 serializers.py:520
+#, python-brace-format
+msgid "Expected a list of items but got type \"{input_type}\"."
+msgstr ""
+
+#: fields.py:1291
+msgid "This selection may not be empty."
+msgstr ""
+
+#: fields.py:1328
+#, python-brace-format
+msgid "\"{input}\" is not a valid path choice."
+msgstr ""
+
+#: fields.py:1347
+msgid "No file was submitted."
+msgstr ""
+
+#: fields.py:1348
+msgid ""
+"The submitted data was not a file. Check the encoding type on the form."
+msgstr ""
+
+#: fields.py:1349
+msgid "No filename could be determined."
+msgstr ""
+
+#: fields.py:1350
+msgid "The submitted file is empty."
+msgstr ""
+
+#: fields.py:1351
+#, python-brace-format
+msgid ""
+"Ensure this filename has at most {max_length} characters (it has {length})."
+msgstr ""
+
+#: fields.py:1399
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: fields.py:1438 relations.py:439 serializers.py:521
+msgid "This list may not be empty."
+msgstr ""
+
+#: fields.py:1491
+#, python-brace-format
+msgid "Expected a dictionary of items but got type \"{input_type}\"."
+msgstr ""
+
+#: fields.py:1538
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: filters.py:35 templates/rest_framework/filters/django_filter.html.py:5
+msgid "Submit"
+msgstr ""
+
+#: pagination.py:189
+msgid "Invalid page."
+msgstr ""
+
+#: pagination.py:407
+msgid "Invalid cursor"
+msgstr ""
+
+#: relations.py:207
+#, python-brace-format
+msgid "Invalid pk \"{pk_value}\" - object does not exist."
+msgstr "Invalid pk \"{pk_value}\" - object does not exist. 500"
+
+#: relations.py:208
+#, python-brace-format
+msgid "Incorrect type. Expected pk value, received {data_type}."
+msgstr ""
+
+#: relations.py:240
+msgid "Invalid hyperlink - No URL match."
+msgstr ""
+
+#: relations.py:241
+msgid "Invalid hyperlink - Incorrect URL match."
+msgstr ""
+
+#: relations.py:242
+msgid "Invalid hyperlink - Object does not exist."
+msgstr ""
+
+#: relations.py:243
+#, python-brace-format
+msgid "Incorrect type. Expected URL string, received {data_type}."
+msgstr ""
+
+#: relations.py:402
+#, python-brace-format
+msgid "Object with {slug_name}={value} does not exist."
+msgstr ""
+
+#: relations.py:403
+msgid "Invalid value."
+msgstr ""
+
+#: serializers.py:326
+#, python-brace-format
+msgid "Invalid data. Expected a dictionary, but got {datatype}."
+msgstr ""
+
+#: templates/rest_framework/admin.html:118
+#: templates/rest_framework/base.html:128
+msgid "Filters"
+msgstr ""
+
+#: templates/rest_framework/filters/django_filter.html:2
+#: templates/rest_framework/filters/django_filter_crispyforms.html:4
+msgid "Field filters"
+msgstr ""
+
+#: templates/rest_framework/filters/ordering.html:3
+msgid "Ordering"
+msgstr ""
+
+#: templates/rest_framework/filters/search.html:2
+msgid "Search"
+msgstr ""
+
+#: templates/rest_framework/horizontal/radio.html:2
+#: templates/rest_framework/inline/radio.html:2
+#: templates/rest_framework/vertical/radio.html:2
+msgid "None"
+msgstr ""
+
+#: templates/rest_framework/horizontal/select_multiple.html:2
+#: templates/rest_framework/inline/select_multiple.html:2
+#: templates/rest_framework/vertical/select_multiple.html:2
+msgid "No items to select."
+msgstr ""
+
+#: validators.py:24
+msgid "This field must be unique."
+msgstr ""
+
+#: validators.py:78
+#, python-brace-format
+msgid "The fields {field_names} must make a unique set."
+msgstr ""
+
+#: validators.py:226
+#, python-brace-format
+msgid "This field must be unique for the \"{date_field}\" date."
+msgstr ""
+
+#: validators.py:241
+#, python-brace-format
+msgid "This field must be unique for the \"{date_field}\" month."
+msgstr ""
+
+#: validators.py:254
+#, python-brace-format
+msgid "This field must be unique for the \"{date_field}\" year."
+msgstr ""
+
+#: versioning.py:42
+msgid "Invalid version in \"Accept\" header."
+msgstr ""
+
+#: versioning.py:73 versioning.py:115
+msgid "Invalid version in URL path."
+msgstr ""
+
+#: versioning.py:144
+msgid "Invalid version in hostname."
+msgstr ""
+
+#: versioning.py:166
+msgid "Invalid version in query parameter."
+msgstr ""
+
+#: views.py:88
+msgid "Permission denied."
+msgstr ""
+
+#:one_user view
+msgid "The current password is not correct. Please try again!"
+msgstr "Mật khẩu hiện tại không chính xác. Vui long nhập lại."
+
+msgid "You cannot delete last supper user.\nPlease change super user permission to another user."
+msgstr "Bạn không thể xóa tài khoản quản trị cuối cùng. Vui lòng chuyển quyền quản trị cho một tài khoản khác trước khi block tài khoản này."
+
+# unit.view
+msgid "You cannot delete unit if unit have one or many offices."
+msgstr "Bạn không thể xóa đơn vị nếu có một hoặc nhiều phòng ban trong đơn vị."
+
+# unit.view
+msgid "You cannot delete office if office have one or many tasks."
+msgstr "Bạn không thể xóa phong ban nếu có một hoặc nhiều tác vụ trong phòng ban. Việc xóa phòng ban có thể gây ra mất dữ liệu không mong muốn"
+
+# unit.view
+msgid "Unable to login with provided credentials."
+msgstr "Thông tin đăng nhập không chính xác."
+
+# one-user serializer
+
+msgid "Ensure passwords are 6 characters or longer,contain at least one uppercase letter, lowercase letter and digit."
+msgstr "Chắc chắn rằng mật khẩu có độ dài từ 6 kí tự trở lên, và chứa ít nhất một kí tự chữ hoa, một chữ thường và một kí tự số."
+
+# one-user serializer
+msgid "Must include \"current-password\" and \"new-password!\""
+msgstr "Bạn cần nhập cả thông tin mật khẩu hiện tại và mật khẩu mới."
+
+# agents.services serializer
+msgid "ip_addr field is required."
+msgstr "ip_addr là trường bắt buộc phải nhập."
+
+
+# agents.monitor.sbox_monitor
+msgid "Detect new device in your network."
+msgstr "Phát hiện thiết bị mới trong hệ thống mạng của bạn."
+
+# agents.monitor.sbox_monitor
+msgid "Please check list devices connected in your network."
+msgstr "Vui lòng kiểm tra tất cả các thiết bị đang kết nối trong hệ thống mạng trong trường hợp không phải bạn thêm vào."
+
+# agents.monitor.sbox_monitor
+msgid "A device is turn off in your network."
+msgstr "Một thiết bị trong hệ thống mạng không được phát hiện so với lần kiểm tra trước đó. Có thể kết nối mạng với thiết bị có vấn đề."
+
+# agents.monitor.sbox_monitor
+msgid "Please check your network connection with your device."
+msgstr "Vui lòng kiểm tra lại kết nối mạng của thiết bị trong trường hợp không phải bạn ngắt kết nối của thiết bị ra khỏi mạng."
+
+# agents.monitor.sbox_monitor
+msgid "Ip address of device is changed."
+msgstr "Địa chỉ IP của một thiết bị thay đổi."
+
+# agents.monitor.sbox_monitor
+msgid "Please check network connection if you don't setting dhcp."
+msgstr "Vui lòng kiểm tra lại cấu hình thiết bị trong trường hợp bạn không thiết lập DHCP."
+
+# agents.monitor.sbox_monitor
+msgid "New service is open on your device."
+msgstr "Một cổng mới được mở public trên thiết bị."
+
+# agents.monitor.sbox_monitor
+msgid "A service is change information."
+msgstr "Thông tin dịch vụ thay đổi."
+
+# agents.monitor.sbox_monitor
+msgid "Please check the service of your device is you don't open port."
+msgstr "Vui lòng kiểm tra lại cấu hình thiết bị nếu không phải bạn mở cổng đó."
+
+# agents.monitor.sbox_monitor
+msgid "A service is closed on your device."
+msgstr "Một cổng mới bị đóng trên thiết bị."
+
+# agents.monitor.sbox_monitor
+msgid "Please check the service of your device is you don't close port."
+msgstr "Vui lòng kiểm tra lại cấu hình dịch vụ nếu không phải bạn mở đóng dịch vụ đó."
+
+# agents.monitor.sbox_monitor
+msgid "Please check the service of your device is you don't do this."
+msgstr "Vui lòng kiểm tra lại cấu hình dịch vụ nếu không phải bạn thay đổi dịch vụ đó."
+
+# agents.monitor.sbox_monitor
+msgid "The version of service is too old."
+msgstr "Phiên bản của phần mềm phát hiện được quá thấp, có thể chứa nhiều lỗ hổng cho phép tin tặc có thể tấn công chiếm quyền điều khiển thiết bị."
+
+# agents.monitor.sbox_monitor
+msgid "Please update the last version of software."
+msgstr "Vui lòng cập nhật phiên bản mới nhất của phần mềm để bảo vệ hệ thống được an toàn nhất cơ thể."
+
+# agents.monitor.sbox_monitor
+msgid "New high vulnerability is detected."
+msgstr "Một lỗ hổng nguy hiểm được phát hiện"
+
+
+# agents.monitor.sbox_monitor
+msgid "New high vuln is detected in last scan. This vulnerability isn't fixed."
+msgstr "Một lỗ hổng nguy hiểm được phát hiện từ lần quét trước chưa được vá."
+
+# agents.monitor.sbox_monitor
+msgid "New penetration testing attack is successful"
+msgstr "Kiểm thử xâm nhập thành công"
+
+# agents.monitor.sbox_monitor
+msgid "Penetration testing is successful. A new session is created."
+msgstr "Kiểm thử xâm nhập thành công. Một session đã được tạo."
+
+# agents.monitor.sbox_monitor
+msgid "Penetration testing is successful."
+msgstr "Kiểm thử xâm nhập thành công."
+
+# agents.monitor.sbox_monitor
+msgid "Please fix the vulnerability."
+msgstr "Vui lòng cập nhật bản vá hoặc vá lỗ hổng website."
+
+# agents.monitor.sbox_monitor
+msgid "Your domain is making blacklist by domain blacklists checker."
+msgstr "Tên miền bị đánh dấu là spam bởi nhà cung cấp dịch vụ kiểm tra tên miền độc hại."
+
+# agents.monitor.sbox_monitor
+msgid "Please check mail or website content or contact domain blacklists checker with to unblock."
+msgstr "Vui lòng kiểm tra lại hoạt động của email hoặc website hoặc liên hệ với nhà cung cấp dịch vụ cung cấp dịch vụ kiểm tra tên miền độc hại để gỡ bỏ domain khỏi danh sách blacklist."
+
+# agents.monitor.sbox_monitor
+msgid "A malware is detect in website link."
+msgstr "Một đường link chứa mã độc hại được phát hiện trong website"
+
+# agents.monitor.sbox_monitor
+msgid "Please check website content source security."
+msgstr "Vui lòng kiểm tra lại mã nguồn đường dẫn hoặc nội dung website."
+
+# agents.monitor.sbox_monitor
+msgid "Website content is changed."
+msgstr "Phát hiện nội dung website bị thay đổi."
+
+# agents.monitor.sbox_monitor
+msgid "Vulnerability"
+msgstr "Tên lỗ hổng"
+
+# agents.monitor.sbox_monitor
+msgid "IP address"
+msgstr "Địa chỉ IP"
+
+# agents.monitor.sbox_monitor
+msgid "Old IP address"
+msgstr "Địa chỉ IP cũ"
+
+
+# agents.monitor.sbox_monitor
+msgid "New IP address"
+msgstr "Địa chỉ IP mới"
+
+
+# agents.monitor.sbox_monitor
+msgid "New service port"
+msgstr "Cổng mới được mở"
+
+
+# agents.monitor.sbox_monitor
+msgid "Service is changed"
+msgstr "Dịch vụ bị thay đổi"
+
+
+# agents.monitor.sbox_monitor
+msgid "Service is closed"
+msgstr "Dịch vụ bị đóng"
+
+# agents.monitor.sbox_monitor
+msgid "Service is detected"
+msgstr "Dịch vụ phát hiện"
+
+# agents.monitor.sbox_monitor
+msgid "Version"
+msgstr "Phiên bản"
+
+# agents.monitor.sbox_monitor
+msgid "Website"
+msgstr "Website"
+
+# agents.monitor.sbox_monitor
+msgid "Url"
+msgstr "Đường dẫn"
+
+# agents.monitor.sbox_monitor
+msgid "Last Version"
+msgstr "Phiên bản mới nhất hiện nay"
+
+# agents.monitor.sbox_monitor
+msgid "Details"
+msgstr "Chi tiết"
+
+# agents.monitor.sbox_monitor
+msgid "Affects"
+msgstr "Url ảnh hưởng"
+
+# agents.monitor.sbox_monitor
+msgid "Please check your network connection of your device and your targets."
+msgstr "Vui lòng kiểm tra kết nối mạng giữa thiết bị đánh giá an ninh và đối tượng cần kiểm tra."
+
+# agents.monitor.sbox_monitor
+msgid "Cannot connect to target scan."
+msgstr "Không thể kết nối đến đối tượng (thiết bị, mạng nội bộ) cần kiểm tra."
+
+
+# sadmin.report.serializer
+msgid "Order by name"
+msgstr "Sắp xếp theo tên"
+
+# sadmin.report.serializer
+msgid "Order by severity"
+msgstr "Sắp xếp theo mức độ nguy hiểm"
+
+# sadmin.report.serializer
+msgid "Order by ip addr"
+msgstr "Sắp xếp theo địa chỉ IP"
+
+# sadmin.report.serializer
+msgid "Order by MAC address"
+msgstr "Sắp xếp theo địa chỉ MAC"
+
+# sadmin.report.serializer
+msgid "Please check http service in website."
+msgstr "Vui lòng kiểm tra lại dịch vụ web trên website của bạn."
+
+# sadmin.report.serializer
+msgid "Cannot connect to http website."
+msgstr "Không thể truy cập vào website."
+
+# sadmin.report.serializer
+msgid "Website is down"
+msgstr "Có lỗi khi truy cập website"
+
+# sadmin.report.serializer
+msgid "Please check website status if you don't do this."
+msgstr "Vui lòng kiểm tra lại website nếu không phải bạn cập nhật nội dung."
+
+# sadmin.report.serializer
+msgid "List pages content changed"
+msgstr "Danh sách đường dẫn thay đổi nội dung"
+
+# sadmin.report.serializer
+msgid "Time detected"
+msgstr "Thời gian"
+
+# sadmin.report.serializer
+msgid "Website content is change detected"
+msgstr "Cảnh báo nội dung website thay đổi"
+
+# sadmin.report.serializer
+msgid "HTTP status code"
+msgstr "HTTP status code"
+
+# sadmin.report.serializer
+msgid "Malware path"
+msgstr "Đường dẫn nghi ngờ chứa mã độc"
+

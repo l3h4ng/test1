@@ -1,0 +1,5 @@
+# Delete same row
+DELETE FROM one_users a
+WHERE a.ctid <> (SELECT min(b.ctid)
+                 FROM   one_users b
+                 WHERE  a.email = b.email);
